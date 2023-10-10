@@ -7,6 +7,17 @@
         "Save restricted content",
         "bot"
     ],
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
     "repository": "https://github.com/vasusen-code/SaveRestrictedContentBot",
     "website": "",
     "success_url": "https://t.me/DroneBots",
